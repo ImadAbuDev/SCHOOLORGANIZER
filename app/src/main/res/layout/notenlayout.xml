@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="stqu.schoolorganizer.AuswahlmenuActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bitte geben sie das Fach ein"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:id="@+id/txteingabefach" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bitte geben sie die Note ein"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:id="@+id/txteingabenote" />
+
+    <Button
+        android:id="@+id/btnSpeichernnote"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Speichern"
+        android:nestedScrollingEnabled="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noten anzeigen"
+        android:id="@+id/btnanzeigennote" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noten löschen"
+        android:id="@+id/btndelete"
+        android:onClick="openlöschmenu" />
+
+</LinearLayout>

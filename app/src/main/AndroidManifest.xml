@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="stqu.myapplication">
+<uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".Splashscreen"
+            android:label ="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    <activity android:name=".TermineActivity">
+    </activity>
+
+
+    <activity android:name=".TermineloeschenActivity">
+    </activity>
+        <activity android:name=".HausaufgabenActivity">
+
+        </activity>
+        <activity android:name=".HausaufgabenloeschenActivity">
+        </activity>
+        <activity android:name=".NotenActivity">
+        </activity>
+        <activity android:name=".NotenloeschenActivity">
+        </activity>
+        <activity android:name=".StundenplanActivity">
+        </activity>
+
+
+        <activity android:name=".AuswahlmenuActivity">
+        </activity>
+
+
+        <activity android:name=".Repeating_activity"/>
+       <receiver android:name=".Notification_Receiver"/>
+
+
+    </application>
+
+</manifest>

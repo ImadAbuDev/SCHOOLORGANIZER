@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalender"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnTermine" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="                    Termin bezeichnung eingeben"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:id="@+id/txttermbez" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="                   Termindatum eingeben"
+        android:id="@+id/textDatum" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:id="@+id/txtDatum" />
+
+    <Button
+        android:id="@+id/btnSpeichernterm"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Speichern"/>
+    <Button
+        android:id="@+id/btnausgabe"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Termine anzeigen"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Termine löschen"
+        android:id="@+id/btndelete"
+        android:layout_gravity="center_horizontal"
+        android:nestedScrollingEnabled="false"
+        android:onClick="openlösch" />
+</LinearLayout>

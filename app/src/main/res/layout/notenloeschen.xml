@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bitte geben die Noten Nr ein,die sie löschen wollen"
+    android:id="@+id/textView3" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textMultiLine"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:ems="10"
+    android:id="@+id/txtid" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Noten anzeigen"
+    android:id="@+id/btnanzeigenn" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Noten löschen"
+    android:id="@+id/btnloeschen"
+    />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="stqu.schoolorganizer.AuswahlmenuActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="WAS MÖCHTEN SIE ORGANISIEREN ? "
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/btnStundenplan"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="Stundenplan"
+        android:onClick="openstundenplan" />
+
+    <Button
+        android:id="@+id/btnHausaufgaben"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="Hausaufgaben"
+        android:onClick="openhausaufgmenu" />
+    <Button
+        android:id="@+id/btnNoten"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="Noten"
+        android:onClick="opennotenmenu" />
+    <Button
+        android:id="@+id/btnTermine"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Termine"
+        android:onClick="openterminemenu" />
+
+
+
+
+
+
+
+</LinearLayout>
